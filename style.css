@@ -1,0 +1,57 @@
+.controle-form {
+    margin: 5px
+}
+
+button[type="submit"]{
+    background-color: #688491;
+    border: none;
+    padding: 10px 20px;
+    color: bisque;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+button[type="submit"]:active{
+    box-shadow: inset 5px 5px 10px grey;
+}
+
+button[type="reset"]{
+    background-color: #688491;
+    border: none;
+    padding: 10px 20px;
+    color: bisque;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+button[type="reset"]:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+button[type="reset"]:active{
+    box-shadow: inset 5px 5px 10px grey;
+}
+
+button[type="disable"]{
+    background-color: #688491;
+    border: none;
+    padding: 10px 20px;
+    color: bisque;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+button[type="disable"]:hover{
+    background-color: blue;
+    cursor: not-allowed;
+}
+
+input:invalid{
+    border-color: red;
+}
