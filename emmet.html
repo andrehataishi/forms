@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- filho, irmão -->
+    <!-- div>ul>li+li+li+li+li+li+li+li+li -->
+
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- irmão, irmão -->
+    <!-- div+p+blockquote -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- irmão, cima, filho -->
+    <!-- div+div>p>span+em^blockquote -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+
+    <!-- multiplica os itens -->
+    <!-- ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- com os link de nav -->
+    <nav>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </nav>
+
+    <!-- pra criar varias -->
+    <!-- div>(header>nav>ul>li*5>a)+footer>p -->
+    <div>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+    table#tabela-princ>(tr.linha.cabecalho>th{Conteudo $}.titulo#tabela*5)+(tr.linha$@-2.info*9>td{Conteudo $}.coluna*5)+tr.linha.info>td{Conteudo $}.coluna*3+td{Conteudo $}.coluna[colspan=2]
+
+
+</body>
+
+</html>
