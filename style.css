@@ -1,5 +1,9 @@
 .controle-form {
-    margin: 5px
+    margin: 10px
+}
+
+.botoes{
+    margin: 10px
 }
 
 button[type="submit"]{
